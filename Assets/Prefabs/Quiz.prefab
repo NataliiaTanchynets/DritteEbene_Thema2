@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &542656466415223775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542656466415223746}
+  - component: {fileID: 542656466415223773}
+  - component: {fileID: 542656466415223772}
+  m_Layer: 0
+  m_Name: Quiz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &542656466415223746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542656466415223775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9146355, y: -0.8788972, z: 0.0957078}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &542656466415223773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542656466415223775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 040f053c43de979458c4df782cc47d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions:
+  - question: "Wie hei\xDFt der h\xF6chste Berg Afrikas?"
+    answers:
+    - Kilimandscharo
+    - Everest
+    - Erebus
+    - Elbrus
+  - question: Wie viele Zeitzonen gibt es auf der Welt?
+    answers:
+    - ' vierundzwanzig'
+    - " zw\xF6lf"
+    - sechs
+    - achtundvierzig
+  - question: Wie lautet die Hauptstadt von Frankreich?
+    answers:
+    - Paris
+    - Madrid
+    - Berlin
+    - Rom
+  - question: Wie lautet der dritte Planet in unserem Sonnensystem?
+    answers:
+    - Erde
+    - Mars
+    - Saturn
+    - Venus
+  - question: "Wie viele Bundesl\xE4nder hat Deutschland"
+    answers:
+    - 16
+    - 20
+    - 24
+    - 10
+  qText: {fileID: 0}
+  answersText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  boxCollider:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  timerQuiz: {fileID: 542656466415223772}
+  pointer: {fileID: 0}
+  anim:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  richtigFalsch: {fileID: 0}
+  canvas: {fileID: 0}
+  richtigeAntwortenCount: 0
+--- !u!114 &542656466415223772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542656466415223775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7b3d8aa44ac4d42a30f1fa1b1dc566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

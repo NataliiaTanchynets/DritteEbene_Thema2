@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="MarkerMedizin" size="0.090000 0.091708" />
+    <ImageTarget name="MarkerTechnik" size="0.090000 0.091366" />
+    <ImageTarget name="MarkerElektrotechnik" size="0.080000 0.081825" />
+    <ImageTarget name="Merkmalbasiert" size="0.150000 0.143659" />
+  </Tracking>
+</QCARConfig>
